@@ -1,0 +1,23 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# entorno y secretos
+.env
+.env.local
+.env.*.local
+
+# Prisma Client generado
+src/generated/
+
+# base de datos local embebida y subidas locales
+.local-db/
+public/uploads/
+
+npm-debug.log*
+.DS_Store
+.vercel
